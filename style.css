@@ -1,0 +1,117 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+header {
+  text-align: center;
+  }
+
+a:link {color: #d62828;}
+a:visited {color: darkred;}
+a:hover {color: #f77f00;}
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  text-align: center;
+  background-color: #eae2b7;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+
+div {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+ol {
+  list-style-position: inside;
+  text-align: left;
+}
+.about-text {
+  text-align: left;
+}
+
+.contact-text{
+  text-align: center;
+  width: 25%
+}
+
+li .contact-text {
+  text-align: left
+}
+
+.bg-text {
+  text-align:left;
+}
+
+.portfolioText1 {
+  text-align:left;
+}
+
+.portfolioText2 {
+  text-align:left;
+}
+
+.portfolioText3 {
+  text-align:left;
+}
+
+.nav-link {
+  margin: 0 10px;
+}
